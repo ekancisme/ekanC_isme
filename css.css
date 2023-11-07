@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(153, 149, 149, 0.7); /* Điều chỉnh màu nền và độ trong suốt */
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 0 10px rgba(153, 149, 149, 0.7);
+    opacity: 0,7;
+}
+
+#password-div, #result-div {
+    margin: 20px 0;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
